@@ -25,7 +25,7 @@ export default function Footer() {
             </li>
             <li>
               <a href={forms.bookCourse} target="_blank" rel="noopener noreferrer" className="hover:text-white">
-                Book a Course
+                Buy a Course
               </a>
             </li>
           </ul>

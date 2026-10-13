@@ -57,8 +57,8 @@ export const offers = [
   {
     key: "bookCourse",
     eyebrow: "02",
-    title: "Book a Course",
+    title: "Buy a Course",
     text: "Structured batch programmes in spoken English, grammar and public speaking.",
-    cta: "Enrol in a Course",
+    cta: "Buy a Course",
   },
 ];
