@@ -5,7 +5,7 @@ export default function Footer() {
 
   return (
     <footer id="contact" className="bg-[#061a40] text-white/70">
-      <div className="mx-auto grid max-w-6xl gap-10 px-4 py-14 sm:px-6 md:grid-cols-3">
+      <div className="mx-auto grid max-w-6xl gap-8 px-4 py-12 sm:grid-cols-2 sm:gap-10 sm:px-6 sm:py-14 md:grid-cols-3">
         <div>
           <p className="font-serif text-xl font-semibold text-white">
             Abacus<span className="text-brand">.</span>{" "}
@@ -16,7 +16,7 @@ export default function Footer() {
 
         <div>
           <h4 className="text-sm font-semibold uppercase tracking-wider text-white">Quick Links</h4>
-          <ul className="mt-4 space-y-2 text-sm">
+          <ul className="mt-4 space-y-3 text-sm">
             <li><a href="#about" className="hover:text-white">About</a></li>
             <li>
               <a href={forms.bookCoach} target="_blank" rel="noopener noreferrer" className="hover:text-white">
@@ -33,8 +33,7 @@ export default function Footer() {
 
         <div>
           <h4 className="text-sm font-semibold uppercase tracking-wider text-white">Contact</h4>
-          <ul className="mt-4 space-y-2 text-sm">
-            <li><a href={`mailto:${site.email}`} className="hover:text-white">{site.email}</a></li>
+          <ul className="mt-4 space-y-3 text-sm">
             <li><a href={`tel:${site.phone.replace(/\s/g, "")}`} className="hover:text-white">{site.phone}</a></li>
             <li>{site.location}</li>
           </ul>

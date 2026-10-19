@@ -7,8 +7,8 @@ export const site = {
   brand: "Abacus of English",
   tagline: "Speak with clarity. Lead with confidence.",
   email: "hello@abaculofenglish.com",
-  phone: "+91 98765 43210",
-  location: "Coimbatore, Tamil Nadu",
+  phone: "+91-8778593044",
+  location: "Virudhunagar, Tamil Nadu",
 };
 
 // 👉 Paste your Google Form URLs here

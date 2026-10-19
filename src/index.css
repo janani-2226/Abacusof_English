@@ -11,5 +11,5 @@
   --font-sans: "Inter", system-ui, sans-serif;
 }
 
-html { scroll-behavior: smooth; }
+html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
 body { @apply bg-cream text-navy font-sans antialiased; }
