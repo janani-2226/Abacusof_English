@@ -31,7 +31,7 @@ export default function Navbar() {
               href="#book"
               className="rounded-full bg-brand px-5 py-2 font-medium transition hover:bg-brand-dark"
             >
-              Book Now
+              Get Started
             </a>
           </li>
         </ul>
@@ -67,7 +67,7 @@ export default function Navbar() {
               onClick={() => setOpen(false)}
               className="block rounded-full bg-brand px-5 py-3 text-center font-medium transition hover:bg-brand-dark"
             >
-              Book Now
+              Get Started
             </a>
           </li>
         </ul>
