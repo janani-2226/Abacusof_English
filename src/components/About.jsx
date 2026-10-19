@@ -6,8 +6,7 @@ export default function About() {
       <div className="grid gap-10 md:grid-cols-[1.3fr_1fr] md:gap-14">
         {/* Bio */}
         <div>
-          <p className="text-sm font-medium uppercase tracking-[0.2em] text-brand">About</p>
-          <h2 className="mt-3 font-serif text-3xl font-semibold sm:text-4xl">{coach.name}</h2>
+          <h2 className="font-serif text-3xl font-semibold sm:text-4xl">{coach.name}</h2>
           <p className="mt-1 text-navy/60">{coach.title}</p>
 
           <div className="mt-6 space-y-5 text-base leading-relaxed text-navy/80 sm:mt-8 sm:text-lg">

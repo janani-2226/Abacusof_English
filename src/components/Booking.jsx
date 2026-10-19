@@ -5,8 +5,7 @@ export default function Booking() {
     <section id="book" className="bg-navy text-white">
       <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6 sm:py-20 md:py-28">
         <div className="max-w-2xl">
-          <p className="text-sm font-medium uppercase tracking-[0.2em] text-brand">Book</p>
-          <h2 className="mt-3 font-serif text-3xl font-semibold sm:text-4xl">
+          <h2 className="font-serif text-3xl font-semibold sm:text-4xl">
             Start your English journey today
           </h2>
           <p className="mt-4 text-white/70">

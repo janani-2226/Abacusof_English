@@ -18,7 +18,7 @@ export const forms = {
 };
 
 export const coach = {
-  name: "Your Coach Name",
+  name: "SHYAMRAJ A",
   title: "Spoken English & Communication Coach",
   photo: "/images/aboutus_profile_picture.jpg", // lives in /public/images
   intro:

@@ -1,8 +1,8 @@
 import { useState } from "react";
-import { site, forms } from "../config";
+import { site } from "../config";
 
 const links = [
-  { href: "#about", label: "About" },
+  { href: "#top", label: "Home" },
   { href: "#book", label: "Courses" },
   { href: "#contact", label: "Contact" },
 ];
@@ -28,9 +28,7 @@ export default function Navbar() {
           ))}
           <li>
             <a
-              href={forms.bookCoach}
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#book"
               className="rounded-full bg-brand px-5 py-2 font-medium transition hover:bg-brand-dark"
             >
               Book Now
@@ -65,9 +63,7 @@ export default function Navbar() {
           ))}
           <li className="pt-2">
             <a
-              href={forms.bookCoach}
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#book"
               onClick={() => setOpen(false)}
               className="block rounded-full bg-brand px-5 py-3 text-center font-medium transition hover:bg-brand-dark"
             >

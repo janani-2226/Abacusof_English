@@ -17,7 +17,7 @@ export default function Footer() {
         <div>
           <h4 className="text-sm font-semibold uppercase tracking-wider text-white">Quick Links</h4>
           <ul className="mt-4 space-y-3 text-sm">
-            <li><a href="#about" className="hover:text-white">About</a></li>
+            <li><a href="#top" className="hover:text-white">Home</a></li>
             <li>
               <a href={forms.bookCoach} target="_blank" rel="noopener noreferrer" className="hover:text-white">
                 Book the Coach
